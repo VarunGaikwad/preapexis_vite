@@ -1,4 +1,4 @@
-# ⚡ Preapexis Vite — React Boilerplate
+# ⚡ PreApeXis Vite — React Boilerplate
 
 A minimal, opinionated React starter. Clone it, install, and you're building — not configuring.
 
