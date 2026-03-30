@@ -20,18 +20,18 @@ A minimal, opinionated React starter. Clone it, install, and you're building —
 ## Getting Started
 
 ```bash
-# 1. Clone and rename the folder to your project name
-cp -r preapexis_vite my-new-project
-cd my-new-project
+# 1. Scaffold into a new folder (replace `my-project` with your actual project name)
+npx degit VarunGaikwad/preapexis_vite my-project
+cd my-project
 
-# 2. Install — this also runs the postinstall script automatically
+# 2. Install — postinstall script runs automatically and names the project after your folder
 npm install
 
 # 3. Start building
 npm run dev
 ```
 
-> **Note:** The `postinstall` script runs once on first `npm install`. It reads your folder name and automatically updates `package.json` and `index.html` with the correct project name. It will not run again after the first time.
+> **Note:** `degit` pulls a clean copy of the repo with no git history attached. On `npm install`, the `postinstall` script reads your folder name and auto-updates `package.json` and `index.html`. It runs exactly once — after that, a `.initialized` flag blocks it from firing again.
 
 ---
 
